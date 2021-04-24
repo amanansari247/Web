@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="Css/style.css">
+    <title>💻Programmer Aman💻</title>
+    
+</head>
+
+
+<script>alert('Website under Construction 😅')</script>
+<body>
+<nav class="navbar background h-nav">
+    <ul class="nav-list v-class">
+        <div class="logo"><img src="logo.jpeg" alt="Logo"></div>
+        <li><a href="#Home">Home</a> </li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Contact">Contact Us</a></li>
+    </ul>
+    <div class="rightnav v-class">
+        <input type="text" name="search"  id="search">
+      <a href="/search" target="_blank"><button class="btn-sm">Search</button></a>
+      
+    </div>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</nav>
+<section class="background firstsection" id="Home">
+    <div class="box-main">
+     <div class="first-half">
+        
+            <p><span id="spin"></span></p>
+           
+       
+     </div> 
+     
+     </div>
+     
+  
+
+    </div>
+    </section>
+<secton class="secright" id="About">
+    <div class="papras">
+    <p class="sectiontag">
+    About
+    </p>
+    <p class="sectionsubtag" id="searching" >
+        Myself Aman Hussain I am Currently Persuing B-tech.I Dont have to much experiance in this feild but i really like and enjoy coding and building new projects 🥳.
+        Bas issen zyada jankari ki zarurat nahi Hain... 😏
+    </p>
+</div>
+    <div class="thumbnail">
+        <img class="imgfluid2" src="https://source.unsplash.com/170x170/?programming,coding,html" alt="image">
+        
+       
+        
+    </div>
+</secton>    
+<secton class="secleft" id="Skills">
+    <div class="papras">
+    <p class="sectiontag">
+    Skills
+    </p>
+    
+</div>
+    <div  class="thumbnail" >
+       <ul class="skills">
+
+       
+     
+        <img  onmouseover="bigImg(this)" onmouseout="normalImg(this)"class="imgfluid imgfluid3" src="c++.png" alt="image" >
+        
+
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"class="imgfluid imgfluid3" src="c.png" alt="image">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"class="imgfluid imgfluid3" src="python.jpg" alt="image">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"class="imgfluid imgfluid3" src="html.jpg" alt="image">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"class="imgfluid imgfluid3" src="node-js.jpg" alt="image">
+       
+    </ul>
+    <script>
+        function bigImg(x) {
+          x.style.height = "200px";
+          x.style.width = "200px";
+          x.style.opacity= "50%";
+         
+        
+        }
+        
+        function normalImg(x) {
+          x.style.height = "170px";
+          x.style.width = "170px";
+          x.style.opacity= "100%";
+          x.style.positon
+        }
+        var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("imgfluid3" );
+  
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display= "block";
+  setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+        </script>
+       
+        
+    </div>
+    
+
+<section class="contact" id="Contact">
+<h1 class = "text-center">Contact Us</h1>
+<form class="form" action="https://wa.me/+919675635863" target="_blank ">
+    <input type="text" name="Name" id="name" placeholder="Name" required>
+    <input type="Email" name="Name" id="email" placeholder="Email" required>
+    <button class="btn" >Let's Chat</button>
+    
+    
+</form>
+</section>    
+<footer class="background">
+<p style="text-align:center"><span style="font-size:12px"></span></p>
+<p style="text-align:center">
+<!--Facebook icon-->
+<a href="https://www.linkedin.com/in/aman-hussain-ansari" target="_blank" style="color: black;"><img alt="linkedin" src="/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png" class="social"style="height:40px; width:40px" /> </a>&nbsp; &nbsp; &nbsp;
+<!--Google+ icon-->
+<a href="https://www.instagram.com/_a_m_a_n_247/" target="_blank" style="color: black;"><img alt="instagram" src="/insta.png" style="height:40px; width:40px" class="social"/> </a>&nbsp; &nbsp;&nbsp;
+<!--Twitter icon-->
+<a href="https://github.com/amanansari247" target="_blank" style="color: black;"><img alt="GitHub-Mark"src="/GitHub-Mark.jpg" style="height:40px; width:40px"class="social" /> </a>&nbsp; &nbsp;&nbsp;
+<!--Linkedin icon-->
+<a href="mailto: amantech247@gmail.com" target="_blank" style="color: black;"><img alt=" mail"src="/Gmail.jpg" style="height:40px; width:40px"  class="social"/> </a>
+</p>
+<p class="copy">
+    Aman Hussain Ansari &copy; - All rights Reserved
+</p>
+
+</footer>
+
+<script src="/java/resp.js"></script>  
+
+
+    
+
+
+
+    
+</body>
+</html>
